@@ -1,0 +1,520 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+@font-face{
+    font-family: 'montserrat2' ;
+    src: url('montserrat.regular.ttf');
+}
+@font-face {
+    font-family: 'FarFromHomecoming';
+    src: url('Far-From Homecoming Updated.otf'); 
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+/*Navbar + image */
+li, a {
+    font-family: Montserrat;
+    font-style: normal;
+    font-size: 1rem;
+    padding-right: 20px;
+   
+}
+header{
+    background: #b11313;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px ;
+    margin: 10;
+}
+
+.item li{
+    margin-right: 10px;
+    display: inline-block;
+
+}
+.item li a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.item li a:hover{
+    color: #F1C530;
+    cursor: pointer;
+}
+
+#logo1{
+    margin-left: 120px;
+}
+#logo2{
+    margin-left: 5px;
+}
+#logo3{
+    margin-right: 400px;
+}
+
+#img1{
+   height: 100vh;
+   background-image: url("img1.png");
+   z-index: -1;
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+
+.name_mid{
+    position: absolute;
+    top: 60%;
+    left: 32.5%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.name_mid p{
+    color: #FFFFFF;
+    font-size: 5.3rem;
+    font-family: FarFromHomecoming;
+    font-style: regular;
+}
+
+.name_mid .btn{
+    margin-top: 7rem;
+}
+.name_mid .btn a{
+    text-decoration: none;
+}
+
+.name_mid .btn a.border{
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    padding: 20px 15px;
+    border-radius: 15px;
+    font-size: 12px;
+    margin-right: 160px;
+    
+
+}
+.name_mid .btn a.border1{
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    padding: 20px 30px;
+    border-radius: 15px;
+    font-size: 12px;
+    margin-right: 20px;
+
+}
+.name_mid .btn a.border:hover, .name_mid .btn a.border1:hover{
+    background: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    color: #b11313;
+}
+
+.name_mid h3{
+    color: #FFFFFF;
+    margin-top: 3rem;
+    font-family: Montserrat;
+    font-style: bold;
+    font-size: 24px;
+    margin-right: 140px;
+}
+
+
+
+
+/*Contenue mi-1 */
+
+.txt_mid1{
+    font-family: FarFromHomecoming;
+    font-style: bold;
+    margin-left: 180px;
+    color: #FFFFFF;
+    font-size: 32px;
+}
+.txt_mid2{
+    color: #FFFFFF;
+    font-family: montserrat2;
+    font-style: regular;
+    margin-left: 180px;
+    font-size: 14px;
+}
+
+.contain{
+    background: #b11313;
+}
+
+
+/*Contenue mi block1 */
+.container{
+    display: flex;
+    justify-content: center;
+    margin-right: 10%;
+    background: #b11313;
+}
+.pic{
+    position: relative;
+}
+
+.card{
+    height: 700px;
+    width: 320px;
+    margin: 20px;
+}
+
+.info{
+    bottom: 10px;
+    height: 207px;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.text{
+    font-size: 14.5px;
+    margin-top: 25px;
+    color: #FFFFFF;
+    font-family: montserrat2;
+    font-style: regular;
+    opacity: 0.70;
+}
+.btn-txt{
+   margin: 10px 0;
+   text-align: center;
+}
+
+.btn-1{
+    font-family: montserrat2;
+    font-style: regular;
+    color: #b11313;
+    border: 1px solid #FFFFFF;
+    padding: 20px 30px;
+    border-radius: 15px;
+    font-size: 12px;
+    margin-right: 20px;
+}
+.btn-1:hover{
+    background: #b11313;
+    border: 1px solid #FFFFFF;
+    color: #FFFFFF;
+}
+
+
+/*Contenue mi block2 */
+
+.container1{
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+    background: #b11313;
+}
+
+.card1{
+    height: 700px;
+    width: 320px;
+    margin-left: 55px;
+}
+.btn-txt-1{
+   margin: 25px 0;
+   text-align: center;
+}
+
+/*Contenue mi block3 */
+
+.container-2{
+    display: flex;
+    justify-content: center;
+    background: #b11313;
+}
+
+.card-2{
+    height: 700px;
+    width: 320px;
+    margin-left: 70px;
+}
+.cat{
+    font-size: 14.5px;
+    margin-left: 30px;
+    color: #FFFFFF;
+    font-family: montserrat2;
+    font-style: regular;
+    opacity: 0.70;
+}
+.txt{
+    font-size: 14.5px;
+    color: #FFFFFF;
+    font-family: montserrat2;
+    font-style: regular;
+    opacity: 0.70;
+}
+.btn-txt-2{
+    margin: 25px 0;
+    text-align: center;
+}
+
+
+/*Contenue mid-2 */
+
+#img5{
+    height: 70.9vh;
+    margin-left: -185px;
+   background-repeat: no-repeat;
+   background-image: url('img5.png');
+   background-color: #114c92;
+}
+
+
+.text-cont {
+    color: #FFFFFF;
+    font-size: 2.3rem;
+    font-family: FarFromHomecoming;
+    font-style: regular;
+    text-align: center;
+    margin-right: 10%;
+    text-transform: uppercase;
+}
+.text-cont2{
+    color: #FFFFFF;
+    font-size: 14px;
+    font-family: Montserrat;
+    font-style: bold;
+    opacity: 0.70;
+}
+
+.contact-box {
+    top: 220%;
+    left: 55%;
+    position: absolute;
+}
+form{
+    margin: 35px;
+}
+.input-field{
+    width: 400px;
+    height: 40px;
+    margin-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px ;
+    border-radius: 20px;
+}
+
+.border3{
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    padding: 10px 45px;
+    border-radius: 15px;
+    font-size: 15px;
+    margin-left: 175px;
+}
+a{
+    text-decoration: none;
+}
+a.border3:hover{
+    background: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    color: #b11313;
+}
+
+/*Contenue mid-3*/
+
+#img6{
+    height: 105.4vh;
+   background-repeat: no-repeat;
+   background-image: url('img6.png');
+   background-color: #b11313;
+   margin-left: 26.5%;
+}
+
+.text-news{
+    color: #FFFFFF;
+    font-size: 2.3rem;
+    font-family: FarFromHomecoming;
+    font-style: regular;
+    text-align: center;
+    text-align: left;
+    text-transform: uppercase;
+}
+.text-news2{
+    color: #FFFFFF;
+    font-size: 14px;
+    font-family: Montserrat;
+    font-style: bold;
+    opacity: 0.70;
+}
+.news-box{
+    top: 300%;
+    right: 50%;
+    position: absolute;
+}
+.input-news{
+    width: 400px;
+    height: 40px;
+    margin-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid #FFFFFF;
+    border-radius: 20px;
+    background-color: transparent;
+    color: #FFFFFF;
+    font-size: 15px;
+    
+}
+.input-news2{
+    width: 400px;
+    height: 40px;
+    margin-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid #FFFFFF;
+    border-radius: 20px;
+    background-color: transparent;
+    color: #FFFFFF;
+    font-size: 15px;
+}
+.checkbox{
+    display: inline;
+    align-items: center;
+    cursor: pointer;
+    margin-left: 40px;
+}
+.btn-2{
+    font-family: montserrat2;
+    font-style: regular;
+    color: #b11313;
+    border: 1px solid #FFFFFF;
+    padding: 20px 30px;
+    border-radius: 15px;
+    font-size: 12px;
+    margin-left: 130px;
+    margin-top: 50px;
+}
+.btn-2:hover{
+    background: #b11313;
+    border: 1px solid #FFFFFF;
+    color: #FFFFFF;
+}
+.regle{
+    font-family: montserrat2;
+    font-style: regular;
+    color: #FFFFFF;
+    text-decoration: underline;
+}
+#para
+{
+    margin-left: 55px;
+    font-family: montserrat2;
+    font-style: regular;
+    color: #FFFFFF;
+}
+
+/*footer*/
+
+.footer{
+    background-color: #000000;
+    height: 40vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+
+.MA{
+    margin-left: 10%;
+}
+
+.Pc, .ck, .MA, a
+{
+    font-size: 12px;
+    color: #FFFFFF;
+    font-family: montserrat2;
+    font-style: regular;
+}
+
+.ck, .Pc, .MA
+{
+    margin-bottom: 6%;
+}
+
+
+
+#img-foot1, #img-foot2, #img-foot3
+{
+    margin-bottom: 6%;
+}
+
+#img-foot3{
+    margin-right: 5%;
+    margin-bottom: 6%;
+}
+
+
+.ct, .blg, .lg{
+    
+    margin-bottom: 6%;
+}
+
+.ct, .blg, a
+{
+    font-size: 12px;
+    color: #FFFFFF;
+    font-family: montserrat2;
+    font-style: regular;
+}
+
+
+.lg
+{
+    margin-right: 10%;
+}
+    
+#lg
+{
+    color: #FFFFFF;
+    font-size: 14px;
+    font-family: montserrat2;
+    font-style: regular;
+    border: 1px solid #b11313;
+    padding: 0px 40px;
+    border-radius: 25px;
+    background-color: #b11313;
+   
+}
+
+.copy{
+    margin-top: 18px;
+}
+txt-copy{
+    margin-bottom: 30px;
+}
+
+
+#bg{
+    background-color: #b11313;
+    border-radius: 25px;
+}
+.lf
+{
+    margin-left: 40%;
+    margin-bottom: 60px;
+}
+.li, .ly, .lt, .lf{
+    margin-bottom: 60px;
+    padding: 10px;
+}
+.icon{
+    margin-left: -180px;
+    display: block;
+    background: #000000;
+}
+
+#copyr
+{
+    text-align: center;
+    margin-right: 5%;
+    opacity: 0.60;
+    font-family: montserrat2;
+    font-style: regular;
+}
+.audio
+{
+    margin-left: 37%;
+}
